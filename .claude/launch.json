@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "chosen-holistic",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["serve", "C:\\Users\\ken\\OneDrive\\Documents\\MyClaudeFiles\\chosen-holistic-services", "--listen", "4789", "--no-clipboard"],
+      "port": 4789
+    }
+  ]
+}

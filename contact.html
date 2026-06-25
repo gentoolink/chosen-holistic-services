@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — Chosen Holistic Services</title>
+  <meta name="description" content="Get in touch with Chosen Holistic Services — questions about our products or booking a shuttle to Prince Albert or Saskatoon.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ── Header ── -->
+  <header class="site-header">
+    <nav class="nav-inner">
+      <a href="index.html" class="site-logo">
+        <span class="logo-name">Chosen Holistic Services</span>
+        <span class="logo-tagline">Natural Living &amp; Community Transport</span>
+      </a>
+      <div class="site-nav">
+        <button class="nav-toggle" aria-label="Toggle menu" onclick="this.nextElementSibling.classList.toggle('open')">
+          <span></span><span></span><span></span>
+        </button>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ── Page Hero ── -->
+    <section class="page-hero">
+      <span class="section-label" style="color: rgba(255,255,255,0.85);">We'd Love to Hear From You</span>
+      <h1>Get in Touch</h1>
+      <p>Questions about our products, booking a shuttle, or anything else — we're here.</p>
+    </section>
+
+    <!-- ── Contact Section ── -->
+    <section class="contact-section">
+      <div class="container">
+        <div class="contact-layout">
+
+          <!-- Info Column -->
+          <div class="contact-info">
+            <span class="section-label">Contact Information</span>
+            <h2>Let's Talk</h2>
+            <div class="divider divider-left"></div>
+            <p>Whether you're curious about our holistic products, need to book a shuttle, or just want to say hello — reach out. We're happy to help.</p>
+
+            <div class="info-item">
+              <div class="info-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="#6b8f71" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81 19.79 19.79 0 01.0 1.18 2 2 0 012 0h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/>
+                </svg>
+              </div>
+              <div class="info-text">
+                <strong>Phone</strong>
+                <span><a href="tel:13068622222">(306) 862-2222</a></span>
+              </div>
+            </div>
+
+            <div class="info-item">
+              <div class="info-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="#6b8f71" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                  <polyline points="22,6 12,13 2,6"/>
+                </svg>
+              </div>
+              <div class="info-text">
+                <strong>Email</strong>
+                <span><a href="mailto:chosenholistic26@gmail.com">chosenholistic26@gmail.com</a></span>
+              </div>
+            </div>
+
+            <div class="info-item">
+              <div class="info-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="#6b8f71" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/>
+                  <circle cx="12" cy="10" r="3"/>
+                </svg>
+              </div>
+              <div class="info-text">
+                <strong>Address</strong>
+                <span>301-1st Ave. E<br>Nipawin, SK &nbsp;S0E 1E0</span>
+              </div>
+            </div>
+
+            <!-- Google Map -->
+            <div style="margin-top: 1.5rem; border-radius: var(--radius-lg); overflow: hidden; box-shadow: var(--shadow-sm);">
+              <iframe
+                src="https://maps.google.com/maps?q=301+1st+Ave+E,+Nipawin,+SK+S0E+1E0,+Canada&output=embed&z=16"
+                width="100%"
+                height="240"
+                style="border:0; display:block;"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                title="Chosen Holistic Services location">
+              </iframe>
+            </div>
+
+            <div class="service-area-note" style="margin-top: 1.5rem;">
+              <strong>Shuttle Service:</strong> We run regular trips to Prince Albert and can arrange service to Saskatoon. Contact us to check availability and book your seat.
+            </div>
+          </div>
+
+          <!-- Form Column -->
+          <div class="contact-form-wrap">
+            <h3>Send Us a Message</h3>
+            <form action="#" method="POST">
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="first-name">First Name</label>
+                  <input type="text" id="first-name" name="first_name" placeholder="Jane" required>
+                </div>
+                <div class="form-group">
+                  <label for="last-name">Last Name</label>
+                  <input type="text" id="last-name" name="last_name" placeholder="Smith">
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="you@example.com" required>
+              </div>
+
+              <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" placeholder="(306) 555-0000">
+              </div>
+
+              <div class="form-group">
+                <label for="inquiry">What are you reaching out about?</label>
+                <select id="inquiry" name="inquiry">
+                  <option value="" disabled selected>Select one...</option>
+                  <option value="products">Holistic Products</option>
+                  <option value="shuttle">Shuttle Service / Booking a Ride</option>
+                  <option value="both">Both Products &amp; Shuttle</option>
+                  <option value="other">Something Else</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="message">Your Message</label>
+                <textarea id="message" name="message" placeholder="Tell us what you need — we're happy to help..."></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary" style="width:100%;">Send Message</button>
+
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ── Shuttle Booking Note ── -->
+    <section style="background: var(--cream-mid); padding: 4rem 0;">
+      <div class="container">
+        <div style="max-width: 720px; margin: 0 auto; text-align: center;">
+          <span class="section-label">Booking a Shuttle?</span>
+          <h2>Here's What to Have Ready</h2>
+          <div class="divider"></div>
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 1.5rem; margin-top: 2rem; text-align: left;">
+            <div style="background: var(--white); border-radius: var(--radius); padding: 1.25rem 1rem; box-shadow: var(--shadow-sm);">
+              <h4 style="font-size: 1rem; margin-bottom: 0.4rem; color: var(--sage);">Your Date &amp; Time</h4>
+              <p style="font-size: 0.875rem; color: var(--text-muted); margin:0;">When do you need to travel? Any flexibility helps us plan.</p>
+            </div>
+            <div style="background: var(--white); border-radius: var(--radius); padding: 1.25rem 1rem; box-shadow: var(--shadow-sm);">
+              <h4 style="font-size: 1rem; margin-bottom: 0.4rem; color: var(--sage);">Your Destination</h4>
+              <p style="font-size: 0.875rem; color: var(--text-muted); margin:0;">Prince Albert, Saskatoon, or somewhere in between?</p>
+            </div>
+            <div style="background: var(--white); border-radius: var(--radius); padding: 1.25rem 1rem; box-shadow: var(--shadow-sm);">
+              <h4 style="font-size: 1rem; margin-bottom: 0.4rem; color: var(--sage);">Number of Passengers</h4>
+              <p style="font-size: 0.875rem; color: var(--text-muted); margin:0;">Travelling alone or with others? Let us know so we can accommodate.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ── Footer ── -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <div class="site-logo">
+            <span class="logo-name">Chosen Holistic Services</span>
+            <span class="logo-tagline">Natural Living &amp; Community Transport</span>
+          </div>
+          <p>Bringing wellness products and community transportation to Saskatchewan, one neighbour at a time.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <address>
+            <a href="tel:13068622222">(306) 862-2222</a><br>
+            <a href="mailto:chosenholistic26@gmail.com">chosenholistic26@gmail.com</a><br>
+            <br>
+            301-1st Ave. E<br>
+            Nipawin, SK &nbsp;S0E 1E0
+          </address>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2026 Chosen Holistic Services. All rights reserved.</span>
+        <span>Site by <a href="https://gentoolinkwebservices.com" target="_blank">Gentoolink Web Services</a></span>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

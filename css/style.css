@@ -293,6 +293,14 @@ section { padding: 5rem 0; }
 
 .hero-content h1 em { color: var(--warm-light); }
 
+.hero-tagline {
+  display: block;
+  font-family: var(--font-script);
+  font-size: 1.5rem;
+  color: var(--warm-light);
+  margin-bottom: 1.25rem;
+}
+
 .hero-content p {
   color: rgba(255,255,255,0.9);
   font-size: 1.15rem;

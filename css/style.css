@@ -15,9 +15,9 @@
   --sage-pale:    #e8f0e9;
   --warm:         #c4956a;
   --warm-light:   #e8c9a8;
-  --brown-dark:   #3d2b1f;
-  --brown-mid:    #7a5c44;
-  --brown-light:  #a08060;
+  --navy-dark:    #2B2E46;
+  --navy-mid:     #4E537F;
+  --navy-light:   #7A80AE;
   --text-body:    #4a3828;
   --text-muted:   #7a6a5a;
   --white:        #ffffff;
@@ -53,7 +53,7 @@ ul { list-style: none; }
 
 /* ── Typography ─────────────────────────────────────────── */
 h1, h2, h3, h4 {
-  color: var(--brown-dark);
+  color: var(--navy-dark);
   line-height: 1.25;
 }
 
@@ -144,8 +144,8 @@ section { padding: 5rem 0; }
   border-color: var(--sage);
 }
 .btn-primary:hover {
-  background: var(--brown-dark);
-  border-color: var(--brown-dark);
+  background: var(--navy-dark);
+  border-color: var(--navy-dark);
   color: var(--white);
 }
 
@@ -165,8 +165,8 @@ section { padding: 5rem 0; }
   border-color: var(--warm);
 }
 .btn-warm:hover {
-  background: var(--brown-dark);
-  border-color: var(--brown-dark);
+  background: var(--navy-dark);
+  border-color: var(--navy-dark);
   color: var(--white);
 }
 
@@ -199,7 +199,7 @@ section { padding: 5rem 0; }
   font-family: var(--font-serif);
   font-size: 1.35rem;
   font-weight: 700;
-  color: var(--brown-dark);
+  color: var(--navy-dark);
 }
 
 .logo-tagline {
@@ -246,7 +246,7 @@ section { padding: 5rem 0; }
   display: block;
   width: 24px;
   height: 2px;
-  background: var(--brown-dark);
+  background: var(--navy-dark);
   transition: all 0.3s;
 }
 
@@ -438,7 +438,7 @@ section { padding: 5rem 0; }
 
 /* ── CTA Strip ──────────────────────────────────────────── */
 .cta-strip {
-  background: linear-gradient(135deg, var(--brown-dark) 0%, var(--brown-mid) 100%);
+  background: linear-gradient(135deg, var(--navy-dark) 0%, var(--navy-mid) 100%);
   padding: 4.5rem 0;
   text-align: center;
 }
@@ -575,7 +575,7 @@ section { padding: 5rem 0; }
   flex-shrink: 0;
 }
 
-.route-item strong { display: block; color: var(--brown-dark); font-size: 0.95rem; margin-bottom: 0.2rem; }
+.route-item strong { display: block; color: var(--navy-dark); font-size: 0.95rem; margin-bottom: 0.2rem; }
 .route-item span   { font-size: 0.875rem; color: var(--text-muted); }
 
 .shuttle-highlight {
@@ -639,7 +639,7 @@ section { padding: 5rem 0; }
 
 .info-icon svg { width: 20px; height: 20px; }
 
-.info-text strong { display: block; color: var(--brown-dark); font-size: 0.9rem; margin-bottom: 0.15rem; }
+.info-text strong { display: block; color: var(--navy-dark); font-size: 0.9rem; margin-bottom: 0.15rem; }
 .info-text span   { font-size: 0.9rem; color: var(--text-muted); }
 
 .service-area-note {
@@ -670,7 +670,7 @@ section { padding: 5rem 0; }
   font-weight: 700;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: var(--brown-mid);
+  color: var(--navy-mid);
   margin-bottom: 0.4rem;
 }
 
@@ -705,7 +705,7 @@ section { padding: 5rem 0; }
 
 /* ── Footer ─────────────────────────────────────────────── */
 .site-footer {
-  background: var(--brown-dark);
+  background: var(--navy-dark);
   color: rgba(255,255,255,0.75);
   padding: 4rem 0 2rem;
 }

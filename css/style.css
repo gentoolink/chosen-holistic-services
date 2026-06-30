@@ -3,7 +3,7 @@
    Inspired by: warm cottage aesthetic, natural wellness tones
    ============================================================ */
 
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Lato:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&family=Lato:wght@300;400;700&display=swap');
 
 /* ── Variables ──────────────────────────────────────────── */
 :root {
@@ -27,7 +27,6 @@
   --radius-lg:    10px;
   --max-width:    1140px;
   --font-script:  'Dancing Script', cursive;
-  --font-serif:   'Playfair Display', Georgia, serif;
   --font-sans:    'Lato', 'Helvetica Neue', Arial, sans-serif;
 }
 
@@ -72,7 +71,7 @@ h2 {
 }
 
 h3 {
-  font-family: var(--font-serif);
+  font-family: var(--font-script);
   font-size: clamp(1.2rem, 2.5vw, 1.55rem);
   font-weight: 600;
 }
@@ -196,7 +195,7 @@ section { padding: 5rem 0; }
 }
 
 .logo-name {
-  font-family: var(--font-serif);
+  font-family: var(--font-script);
   font-size: 1.35rem;
   font-weight: 700;
   color: var(--navy-dark);
@@ -337,7 +336,7 @@ section { padding: 5rem 0; }
 }
 
 .welcome-image .placeholder-art span {
-  font-family: var(--font-serif);
+  font-family: var(--font-sans);
   font-size: 0.9rem;
   color: var(--text-muted);
   text-align: center;
@@ -473,7 +472,7 @@ section { padding: 5rem 0; }
 }
 
 .about-image .placeholder-art span {
-  font-family: var(--font-serif);
+  font-family: var(--font-sans);
   color: var(--text-muted);
   font-style: italic;
   font-size: 0.9rem;
@@ -503,7 +502,7 @@ section { padding: 5rem 0; }
 
 .value-card h4 {
   color: var(--sage);
-  font-family: var(--font-serif);
+  font-family: var(--font-sans);
   margin-bottom: 0.5rem;
   font-size: 1.2rem;
 }

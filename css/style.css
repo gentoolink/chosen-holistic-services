@@ -453,6 +453,25 @@ section { padding: 5rem 0; }
 .cta-strip h2  { color: var(--white); margin-bottom: 0.75rem; }
 .cta-strip p   { color: rgba(255,255,255,0.8); max-width: 480px; margin: 0 auto 2rem; }
 
+.owner-note { background: var(--cream-mid); padding: 4.5rem 0; }
+
+.owner-note-box {
+  max-width: 620px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.owner-note-box p { color: var(--text-body); font-size: 1.05rem; }
+.owner-note-box p em { color: var(--navy-dark); font-style: italic; }
+
+.owner-note-signature {
+  display: block;
+  font-family: var(--font-script);
+  font-size: 1.75rem;
+  color: var(--navy-dark);
+  margin-top: 1rem;
+}
+
 /* ── About Page ─────────────────────────────────────────── */
 .about-story { background: var(--white); }
 

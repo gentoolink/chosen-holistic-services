@@ -1002,8 +1002,11 @@ section { padding: 5rem 0; }
   .nav-toggle:hover span { background: var(--sage); }
 
   .hero { min-height: 70vh; }
+  .hero-content { text-align: center; margin-left: auto; margin-right: auto; }
+  .hero-content p { margin-left: auto; margin-right: auto; }
   .hero-buttons { flex-direction: column; }
   .btn { width: 100%; text-align: center; }
+  .icon-submenu-grid { justify-content: center; }
 
   .form-row { grid-template-columns: 1fr; }
   .footer-inner { grid-template-columns: 1fr; }

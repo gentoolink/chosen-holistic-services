@@ -336,7 +336,7 @@ section { padding: 5rem 0; }
 .hero-wordmark-lockup {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   margin-bottom: 1.5rem;
 }
 
@@ -368,7 +368,7 @@ section { padding: 5rem 0; }
 .icon-submenu-grid {
   display: flex;
   flex-wrap: wrap;
-  gap: 1.5rem 1.5rem;
+  gap: 1.8rem 1.8rem;
   margin-top: 0.5rem;
 }
 
@@ -378,18 +378,18 @@ section { padding: 5rem 0; }
   align-items: center;
   text-align: center;
   text-decoration: none;
-  width: 92px;
+  width: 110px;
   position: relative;
 }
 
 .icon-circle {
-  width: 60px;
-  height: 60px;
+  width: 72px;
+  height: 72px;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 0.55rem;
+  margin-bottom: 0.65rem;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
   box-shadow: var(--shadow-sm);
   border: 2px solid rgba(255,255,255,0.22);
@@ -403,11 +403,11 @@ section { padding: 5rem 0; }
 .icon-circle.bg-navy { background: var(--navy-mid); }
 .icon-circle.bg-sage { background: var(--sage); }
 
-.icon-circle svg { width: 26px; height: 26px; }
+.icon-circle svg { width: 31px; height: 31px; }
 
 .icon-label {
   font-family: var(--font-sans);
-  font-size: 0.68rem;
+  font-size: 0.82rem;
   font-weight: 700;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -978,14 +978,28 @@ section { padding: 5rem 0; }
     top: 100%;
     left: 0;
     right: 0;
-    background: var(--white);
-    border-top: 1px solid var(--cream-dark);
-    padding: 1rem 0;
+    background: linear-gradient(160deg, var(--navy-dark) 0%, var(--navy-mid) 100%);
+    border-top: 3px solid var(--sage);
+    padding: 0.5rem 0;
     box-shadow: var(--shadow-md);
   }
-  .site-nav ul.open li { border-bottom: 1px solid var(--cream-mid); }
-  .site-nav ul.open a { display: block; padding: 0.85rem 1.5rem; border-bottom: none; }
+  .site-nav ul.open li { border-bottom: 1px solid rgba(255,255,255,0.14); }
+  .site-nav ul.open li:last-child { border-bottom: none; }
+  .site-nav ul.open a {
+    display: block;
+    padding: 0.85rem 1.5rem;
+    color: rgba(255,255,255,0.88);
+    border-bottom: none;
+    border-left: 3px solid transparent;
+  }
+  .site-nav ul.open a:hover,
+  .site-nav ul.open a.active {
+    color: var(--white);
+    background: rgba(255,255,255,0.08);
+    border-left-color: var(--sage);
+  }
   .nav-toggle { display: flex; }
+  .nav-toggle:hover span { background: var(--sage); }
 
   .hero { min-height: 70vh; }
   .hero-buttons { flex-direction: column; }

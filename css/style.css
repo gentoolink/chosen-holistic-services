@@ -159,9 +159,9 @@ section { padding: 5rem 0; }
 }
 
 .btn-warm {
-  background: var(--warm);
+  background: var(--sage);
   color: var(--white);
-  border-color: var(--warm);
+  border-color: var(--sage);
 }
 .btn-warm:hover {
   background: var(--navy-dark);

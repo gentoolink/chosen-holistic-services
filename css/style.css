@@ -1,6 +1,6 @@
 /* ============================================================
    Chosen Holistic Services — Main Stylesheet
-   Inspired by: warm cottage aesthetic, natural wellness tones
+   Inspired by: the Chosen van wrap — navy, sage green, gold crown accents
    ============================================================ */
 
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&family=Lato:wght@300;400;700&display=swap');
@@ -10,12 +10,13 @@
   --cream:        #faf7f2;
   --cream-mid:    #f0ebe0;
   --cream-dark:   #e5dcd0;
-  --sage:         #6b8f71;
+  --sage:         #6f9271;
   --sage-light:   #a8c5ae;
   --sage-pale:    #e8f0e9;
-  --warm:         #c4956a;
-  --warm-light:   #e8c9a8;
-  --navy-dark:    #2B2E46;
+  --sage-dark:    #4f7355;
+  --gold:         #b8973f;
+  --gold-light:   #e0c07a;
+  --navy-dark:    #23264a;
   --navy-mid:     #4E537F;
   --navy-light:   #7A80AE;
   --text-body:    #4a3828;
@@ -46,7 +47,7 @@ body {
 img { max-width: 100%; height: auto; display: block; }
 
 a { color: var(--sage); text-decoration: none; transition: color 0.2s; }
-a:hover { color: var(--warm); }
+a:hover { color: var(--sage-dark); }
 
 ul { list-style: none; }
 
@@ -86,7 +87,7 @@ h4 {
 p { margin-bottom: 1rem; }
 p:last-child { margin-bottom: 0; }
 
-em { font-style: italic; color: var(--warm); }
+em { font-style: italic; color: var(--gold); }
 
 .section-label {
   font-family: var(--font-sans);
@@ -113,7 +114,7 @@ section { padding: 5rem 0; }
 .divider {
   width: 60px;
   height: 2px;
-  background: var(--warm);
+  background: var(--sage);
   margin: 1.25rem auto 2rem;
 }
 
@@ -268,9 +269,9 @@ section { padding: 5rem 0; }
   overflow: hidden;
   background:
     linear-gradient(to bottom right,
-      rgba(107,143,113,0.82) 0%,
+      rgba(111,146,113,0.82) 0%,
       rgba(168,197,174,0.60) 50%,
-      rgba(196,149,106,0.70) 100%),
+      rgba(35,38,74,0.75) 100%),
     url('../images/hero-bg.jpg') center/cover no-repeat;
   background-color: var(--sage);
 }
@@ -291,13 +292,13 @@ section { padding: 5rem 0; }
   font-size: clamp(2.4rem, 6vw, 4rem);
 }
 
-.hero-content h1 em { color: var(--warm-light); }
+.hero-content h1 em { color: var(--gold-light); }
 
 .hero-tagline {
   display: block;
   font-family: var(--font-script);
   font-size: 1.5rem;
-  color: var(--warm-light);
+  color: var(--gold-light);
   margin-bottom: 1.25rem;
 }
 
@@ -459,7 +460,7 @@ section { padding: 5rem 0; }
   position: absolute;
   top: -4px;
   right: 4px;
-  background: var(--warm);
+  background: var(--gold);
   color: #fff;
   font-size: 0.5rem;
   font-weight: 700;
@@ -497,7 +498,7 @@ section { padding: 5rem 0; }
 .welcome-image .placeholder-art {
   width: 100%;
   height: 100%;
-  background: linear-gradient(135deg, var(--sage-pale) 0%, var(--cream-dark) 50%, var(--warm-light) 100%);
+  background: linear-gradient(135deg, var(--sage-pale) 0%, var(--cream-dark) 50%, var(--navy-light) 100%);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -552,7 +553,7 @@ section { padding: 5rem 0; }
   box-shadow: var(--shadow-md);
 }
 
-.card.card-warm { border-top-color: var(--warm); }
+.card.card-warm { border-top-color: var(--navy-mid); }
 
 .card-icon {
   width: 52px;
@@ -565,7 +566,7 @@ section { padding: 5rem 0; }
   justify-content: center;
 }
 
-.card.card-warm .card-icon { background: #fdf0e4; }
+.card.card-warm .card-icon { background: #eceef5; }
 
 .card-icon svg { width: 26px; height: 26px; }
 
@@ -574,7 +575,7 @@ section { padding: 5rem 0; }
 .card p { color: var(--text-muted); margin-bottom: 1.5rem; font-size: 0.95rem; }
 
 .card a { font-size: 0.85rem; font-weight: 700; letter-spacing: 0.05em; text-transform: uppercase; }
-.card a:hover { color: var(--warm); }
+.card a:hover { color: var(--sage-dark); }
 
 /* ── Why Us Section ─────────────────────────────────────── */
 .why-section { background: var(--white); }
@@ -652,7 +653,7 @@ section { padding: 5rem 0; }
 .about-image .placeholder-art {
   width: 100%;
   height: 100%;
-  background: linear-gradient(160deg, var(--sage-pale) 0%, var(--cream-mid) 60%, var(--warm-light) 100%);
+  background: linear-gradient(160deg, var(--sage-pale) 0%, var(--cream-mid) 60%, var(--navy-light) 100%);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -756,7 +757,7 @@ section { padding: 5rem 0; }
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  background: var(--warm);
+  background: var(--sage);
   margin-top: 0.4rem;
   flex-shrink: 0;
 }
@@ -790,6 +791,65 @@ section { padding: 5rem 0; }
   height: 6px;
   border-radius: 50%;
   background: var(--sage);
+}
+
+/* ── Glass & Handi-Man ──────────────────────────────────── */
+.handyman-section { background: var(--white); }
+
+.handyman-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: start;
+}
+
+.handyman-info h2 { margin-bottom: 0.5rem; }
+.handyman-info p  { color: var(--text-muted); margin-bottom: 1.5rem; }
+
+.handyman-highlight {
+  background: var(--cream-mid);
+  border-radius: var(--radius-lg);
+  padding: 2.5rem 2rem;
+  border-top: 4px solid var(--navy-mid);
+}
+
+.handyman-highlight h3 { color: var(--navy-dark); margin-bottom: 1rem; }
+.handyman-highlight p  { font-size: 0.95rem; color: var(--text-muted); }
+
+.handyman-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.5rem;
+  margin-top: 3.5rem;
+}
+
+.gallery-item {
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+  background: var(--cream-mid);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.gallery-item:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-md);
+}
+
+.gallery-item img {
+  width: 100%;
+  aspect-ratio: 4/3;
+  object-fit: cover;
+  display: block;
+}
+
+.gallery-item span {
+  display: block;
+  padding: 0.85rem 1rem;
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  color: var(--navy-dark);
 }
 
 /* ── Contact Page ───────────────────────────────────────── */
@@ -834,7 +894,7 @@ section { padding: 5rem 0; }
   padding: 1rem 1.25rem;
   font-size: 0.875rem;
   color: var(--text-muted);
-  border-left: 3px solid var(--warm);
+  border-left: 3px solid var(--sage);
   margin-top: 2rem;
 }
 
@@ -924,7 +984,7 @@ section { padding: 5rem 0; }
   color: rgba(255,255,255,0.65);
   transition: color 0.2s;
 }
-.footer-col ul a:hover { color: var(--warm-light); }
+.footer-col ul a:hover { color: var(--sage-light); }
 
 .footer-col address {
   font-style: normal;
@@ -941,7 +1001,7 @@ section { padding: 5rem 0; }
 }
 
 .footer-bottom a { color: rgba(255,255,255,0.5); }
-.footer-bottom a:hover { color: var(--warm-light); }
+.footer-bottom a:hover { color: var(--sage-light); }
 
 /* ── Animated SVG ───────────────────────────────────────── */
 @keyframes wave-flow {
@@ -991,6 +1051,7 @@ section { padding: 5rem 0; }
   .welcome-grid,
   .about-grid,
   .shuttle-layout,
+  .handyman-layout,
   .contact-layout { grid-template-columns: 1fr; gap: 2.5rem; }
 
   .footer-inner { grid-template-columns: 1fr 1fr; }

@@ -824,11 +824,11 @@ section { padding: 5rem 0; }
 }
 
 .handyman-highlight-header img {
-  width: 72px;
-  height: 72px;
+  width: 104px;
+  height: 104px;
   border-radius: 50%;
   object-fit: cover;
-  object-position: top center;
+  object-position: center;
   box-shadow: var(--shadow-sm);
   border: 2px solid var(--white);
 }

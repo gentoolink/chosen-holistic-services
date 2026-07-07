@@ -813,8 +813,25 @@ section { padding: 5rem 0; }
   border-top: 4px solid var(--navy-mid);
 }
 
-.handyman-highlight h3 { color: var(--navy-dark); margin-bottom: 1rem; }
+.handyman-highlight h3 { color: var(--navy-dark); margin-bottom: 0; }
 .handyman-highlight p  { font-size: 0.95rem; color: var(--text-muted); }
+
+.handyman-highlight-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.25rem;
+}
+
+.handyman-highlight-header img {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: top center;
+  box-shadow: var(--shadow-sm);
+  border: 2px solid var(--white);
+}
 
 .handyman-gallery {
   display: grid;

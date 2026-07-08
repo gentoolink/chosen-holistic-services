@@ -830,6 +830,15 @@ section { padding: 5rem 0; }
 .handyman-info h2 { margin-bottom: 0.5rem; }
 .handyman-info p  { color: var(--text-muted); margin-bottom: 1.5rem; }
 
+/* Service cards pulled out of the two-column layout to span the full width.
+   Tighter min than the base .product-grid so all four fit on one row on
+   desktop (they're short cards), still wrapping on tablet/mobile. */
+.handyman-services {
+  margin-top: 3rem;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+.handyman-cta { margin: 2rem 0 3.5rem; }
+
 .handyman-highlight {
   background: var(--cream-mid);
   border-radius: var(--radius-lg);

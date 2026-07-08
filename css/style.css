@@ -243,6 +243,9 @@ section { padding: 5rem 0; }
   cursor: pointer;
   padding: 4px;
 }
+
+/* Call button lives in the nav list but only appears in the mobile menu */
+.nav-call { display: none; }
 .nav-toggle span {
   display: block;
   width: 24px;
@@ -1143,6 +1146,27 @@ section { padding: 5rem 0; }
   }
   .nav-toggle { display: flex; }
   .nav-toggle:hover span { background: var(--sage); }
+
+  /* Call button — only visible inside the open mobile menu */
+  .site-nav ul.open .nav-call { display: block; border-bottom: none; }
+  .site-nav ul.open .nav-call a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin: 0.65rem 1.25rem 0.35rem;
+    padding: 0.85rem 1rem;
+    background: var(--sage);
+    color: var(--white);
+    border-radius: var(--radius);
+    border-left: none;
+  }
+  .site-nav ul.open .nav-call a:hover {
+    background: var(--sage-dark);
+    color: var(--white);
+    border-left-color: transparent;
+  }
+  .nav-call svg { width: 18px; height: 18px; flex-shrink: 0; }
 
   .hero { min-height: 70vh; }
   .hero-content { text-align: center; margin-left: auto; margin-right: auto; }

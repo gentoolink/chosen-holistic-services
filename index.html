@@ -43,9 +43,13 @@
           fill="none" stroke="var(--sage)" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
       </svg>
 
-      <!-- Van photo, faded into the navy background on the right (hidden on smaller screens) -->
-      <div class="hero-van-photo-wrap">
-        <img class="hero-van-photo" src="images/van.png" alt="Chosen Holistic Services branded van" width="1446" height="736" loading="eager">
+      <!-- Van photo, faded into the navy background on the right (hidden on smaller screens).
+           Decorative: alt="" because the wrap's own text duplicates the hero copy. -->
+      <div class="hero-van-photo-wrap" aria-hidden="true">
+        <picture>
+          <source type="image/webp" srcset="images/van.webp">
+          <img class="hero-van-photo" src="images/van.png" alt="" width="1282" height="625" loading="eager">
+        </picture>
       </div>
 
       <div class="hero-content">

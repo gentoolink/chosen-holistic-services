@@ -337,37 +337,6 @@ section { padding: 5rem 0; }
   opacity: 0.30;   /* sage strokes read much harder on white than on navy */
 }
 
-.hero-wordmark-lockup {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 1.5rem;
-}
-
-.hero-crown {
-  display: block;
-  width: 40px;
-  height: auto;
-  margin: 0 0 0.85rem;
-  filter: drop-shadow(0 1px 2px rgba(35,38,74,0.18));
-}
-
-.hero-wordmark {
-  font-family: var(--font-script);
-  font-weight: 700;
-  font-size: clamp(3rem, 9vw, 5.5rem);
-  line-height: 1;
-  color: var(--navy-dark);
-  margin: 0;
-}
-
-.hero-wordmark-underline {
-  width: 100%;
-  max-width: 340px;
-  height: 14px;
-  margin-top: 0.3rem;
-}
-
 /* Van photo (background-removed cutout of the real wrapped van), shown as a real
    photograph rather than the ghost it had to be on navy. The van is mostly white,
    so on a light ground it can't be faded — at low opacity it dissolves into a

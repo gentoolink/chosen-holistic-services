@@ -171,6 +171,19 @@ section { padding: 5rem 0; }
   color: var(--white);
 }
 
+/* ── TEMP: Opening announcement bar — remove this whole block + markup after opening day ── */
+.announcement-bar {
+  background: var(--navy-dark);
+  color: var(--gold-light);
+  text-align: center;
+  font-family: var(--font-sans);
+  font-weight: 700;
+  font-size: 0.85rem;
+  letter-spacing: 0.02em;
+  padding: 0.65rem 1rem;
+}
+.announcement-bar strong { color: var(--white); }
+
 /* ── Header & Navigation ────────────────────────────────── */
 .site-header {
   position: sticky;

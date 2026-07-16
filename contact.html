@@ -232,6 +232,34 @@
                 </select>
               </div>
 
+              <div id="shuttle-fields" class="shuttle-fields" style="display:none;">
+                <div class="form-row">
+                  <div class="form-group">
+                    <label for="shuttle-date">Travel Date</label>
+                    <input type="date" id="shuttle-date" name="shuttle_date">
+                  </div>
+                  <div class="form-group">
+                    <label for="shuttle-time">Travel Time</label>
+                    <input type="time" id="shuttle-time" name="shuttle_time">
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="shuttle-destination">Destination</label>
+                  <select id="shuttle-destination" name="shuttle_destination">
+                    <option value="" disabled selected>Select destination...</option>
+                    <option value="Prince Albert">Prince Albert</option>
+                    <option value="Saskatoon">Saskatoon</option>
+                    <option value="Other">Other / Somewhere In Between</option>
+                  </select>
+                </div>
+
+                <div class="form-group">
+                  <label for="shuttle-passengers">Number of Passengers</label>
+                  <input type="number" id="shuttle-passengers" name="passengers" min="1" max="15" placeholder="1">
+                </div>
+              </div>
+
               <div class="form-group">
                 <label for="message">Your Message</label>
                 <textarea id="message" name="message" placeholder="Tell us what you need — we're happy to help..."></textarea>
@@ -310,6 +338,21 @@
       </div>
     </div>
   </footer>
+
+  <script>
+    (function () {
+      var inquiry = document.getElementById('inquiry');
+      var shuttleFields = document.getElementById('shuttle-fields');
+      if (!inquiry || !shuttleFields) return;
+
+      function toggleShuttleFields() {
+        shuttleFields.style.display = (inquiry.value === 'shuttle' || inquiry.value === 'both') ? 'block' : 'none';
+      }
+
+      inquiry.addEventListener('change', toggleShuttleFields);
+      toggleShuttleFields();
+    })();
+  </script>
 
 </body>
 </html>

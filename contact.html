@@ -122,7 +122,11 @@
           <!-- Form Column -->
           <div class="contact-form-wrap">
             <h3>Send Us a Message</h3>
-            <form action="#" method="POST">
+            <form name="contact" method="POST" action="/thank-you.html" data-netlify="true" data-netlify-honeypot="bot-field">
+              <input type="hidden" name="form-name" value="contact">
+              <p class="form-honeypot" style="display:none;">
+                <label>Don't fill this out if you're human: <input name="bot-field"></label>
+              </p>
 
               <div class="form-row">
                 <div class="form-group">
